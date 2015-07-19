@@ -7,9 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "Protocol.h"
 @interface ViewController : UIViewController
-
 
 @end
 

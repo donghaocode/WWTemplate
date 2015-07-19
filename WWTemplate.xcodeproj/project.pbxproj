@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		37B81B7D1B575A6A008C3267 /* Protocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 37B81B7C1B575A6A008C3267 /* Protocol.m */; };
 		37D3CB631B3D557300F1A34C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D3CB621B3D557300F1A34C /* main.m */; };
 		37D3CB661B3D557300F1A34C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D3CB651B3D557300F1A34C /* AppDelegate.m */; };
 		37D3CB691B3D557300F1A34C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D3CB681B3D557300F1A34C /* ViewController.m */; };
@@ -27,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		37B81B7B1B575A6A008C3267 /* Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Protocol.h; sourceTree = "<group>"; };
+		37B81B7C1B575A6A008C3267 /* Protocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Protocol.m; sourceTree = "<group>"; };
 		37D3CB5D1B3D557300F1A34C /* WWTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WWTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37D3CB611B3D557300F1A34C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		37D3CB621B3D557300F1A34C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -85,6 +88,8 @@
 				37D3CB651B3D557300F1A34C /* AppDelegate.m */,
 				37D3CB671B3D557300F1A34C /* ViewController.h */,
 				37D3CB681B3D557300F1A34C /* ViewController.m */,
+				37B81B7B1B575A6A008C3267 /* Protocol.h */,
+				37B81B7C1B575A6A008C3267 /* Protocol.m */,
 				37D3CB6A1B3D557300F1A34C /* Main.storyboard */,
 				37D3CB6D1B3D557300F1A34C /* Images.xcassets */,
 				37D3CB6F1B3D557300F1A34C /* LaunchScreen.xib */,
@@ -222,6 +227,7 @@
 				37D3CB691B3D557300F1A34C /* ViewController.m in Sources */,
 				37D3CB661B3D557300F1A34C /* AppDelegate.m in Sources */,
 				37D3CB631B3D557300F1A34C /* main.m in Sources */,
+				37B81B7D1B575A6A008C3267 /* Protocol.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +422,7 @@
 				37D3CB821B3D557300F1A34C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		37D3CB831B3D557300F1A34C /* Build configuration list for PBXNativeTarget "WWTemplateTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +431,7 @@
 				37D3CB851B3D557300F1A34C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
